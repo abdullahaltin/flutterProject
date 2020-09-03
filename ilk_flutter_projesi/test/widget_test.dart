@@ -8,12 +8,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:ilk_flutter_projesi/main.dart';
+//import 'package:ilk_flutter_projesi/main.dart';
+import 'package:ilk_flutter_projesi/ui/liste_dersleri.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(ListeKonuAnlatimi());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
